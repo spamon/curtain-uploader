@@ -92,7 +92,7 @@ def upload_product_to_site(driver, product_name, colors):
 
     # Input your credentials and submit the form
     username_field.send_keys("shaun_mcgrath451@btinternet.com")
-    password_field.send_keys("zBURS0MzzJ@gwTyiLzGIHgObkChm")
+    password_field.send_keys("")
     password_field.send_keys(Keys.RETURN)  # Simulate pressing the Enter key
 
     accept_button = driver.find_element(By.LINK_TEXT, "Accept")
